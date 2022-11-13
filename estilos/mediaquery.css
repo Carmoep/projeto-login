@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/*Typical Device Breakpoint
+Mobile: max 768.
+Tablet: min 768 max 1024.
+PC: min 1024 max 1920.
+High-res laptop or desktop: 1920 x 2560.*/
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    body, html {
+        background-image: linear-gradient(to top, #8fa1b8, #3f8863);
+    }
+    section#login {
+        width: 90vw;
+    }
+    section#login > div#imagem {
+        background: url(../imagens/pexels-marta-wave-5875939.jpg);
+        background-size: cover;
+        background-position: center center;
+        float: left;
+        height: 100%;
+        width: 30%;
+    }
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1920px) {
+    body, html {
+        background-image: linear-gradient(to top, #7d9dc7, #3f8863);
+    }
+    #login {
+        width: 80vw;
+    }
+    #imagem {
+        background: url(../imagens/pexels-marta-wave-5875939.jpg);
+        background-size: cover;
+        background-position: center center;
+        float: left;
+        height: 100%;
+        width: 50%;
+    }
+    #formulario {
+        float: right;
+        width: 50%;
+    }
+}
