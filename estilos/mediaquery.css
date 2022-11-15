@@ -11,6 +11,7 @@ High-res laptop or desktop: 1920 x 2560.*/
         background-image: linear-gradient(to top, #aec0f3, #347253);
     }
     section#login {
+        height: 50vw;
         width: 90vw;
     }
     section#login > div#imagem {
@@ -31,6 +32,7 @@ High-res laptop or desktop: 1920 x 2560.*/
         background-image: linear-gradient(to top, #aec0f3, #347253);
     }
     #login {
+        height: 40vw;
         width: 80vw;
     }
     #imagem {
