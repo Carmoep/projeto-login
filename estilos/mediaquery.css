@@ -8,7 +8,7 @@ High-res laptop or desktop: 1920 x 2560.*/
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     body, html {
-        background-image: linear-gradient(to top, #8fa1b8, #3f8863);
+        background-image: linear-gradient(to top, #aec0f3, #347253);
     }
     section#login {
         width: 90vw;
@@ -28,7 +28,7 @@ High-res laptop or desktop: 1920 x 2560.*/
 }
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
     body, html {
-        background-image: linear-gradient(to top, #7d9dc7, #3f8863);
+        background-image: linear-gradient(to top, #aec0f3, #347253);
     }
     #login {
         width: 80vw;
@@ -45,4 +45,11 @@ High-res laptop or desktop: 1920 x 2560.*/
         float: right;
         width: 50%;
     }
+    #formulario > h1 {
+        font-size: 2.3em;
+    }
+    #formulario > p {
+        font-size: 1.2em;
+    }
 }
+
