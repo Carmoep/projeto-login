@@ -25,6 +25,7 @@ High-res laptop or desktop: 1920 x 2560.*/
     section#login > div#formulario {
         float: right;
         width: 70%;
+        max-width: 600px;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
@@ -32,8 +33,10 @@ High-res laptop or desktop: 1920 x 2560.*/
         background-image: linear-gradient(to top, #aec0f3, #347253);
     }
     #login {
-        height: 40vw;
-        width: 80vw;
+        height: 30vw;
+        width: 70vw;
+        max-width: 1000px;
+        max-height: 700px;
     }
     #imagem {
         background: url(../imagens/pexels-marta-wave-5875939.jpg);
@@ -48,10 +51,10 @@ High-res laptop or desktop: 1920 x 2560.*/
         width: 50%;
     }
     #formulario > h1 {
-        font-size: 2.3em;
+        font-size: 1.7em;
     }
     #formulario > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 }
 
