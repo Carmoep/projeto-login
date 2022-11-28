@@ -25,7 +25,6 @@ High-res laptop or desktop: 1920 x 2560.*/
     section#login > div#formulario {
         float: right;
         width: 70%;
-        max-width: 600px;
     }
 }
 @media screen and (min-width: 1024px) and (max-width: 1920px) {
